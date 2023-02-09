@@ -105,10 +105,6 @@ main .container-main .cv{
     color: black;
     font-weight: bold;
 }
-main .container-main .seta{
-    z-index: 100;
-    box-shadow: 10px 5px 20px black;
-}
 main .container-main .contate-me:hover{
     font-weight: bolder;
     transition: 0.2s;
@@ -131,6 +127,9 @@ main .container-contact ul{
     font-size: 13px;
     text-align: right;
     list-style: none;
+}
+main .container-contact ul a{
+    text-decoration: none;
 }
 main .container-contact img{
     cursor: pointer;
@@ -507,7 +506,7 @@ footer strong{
     nav #menu{
         display: block;
         visibility: hidden;
-        z-index: 9999;
+        z-index: 99999999;
         border-left: 3px solid white;
         background-color: #0e0e0e;
         padding: 8vw;
@@ -542,11 +541,16 @@ footer strong{
         padding: 0 !important;
         list-style: none;
     }
+    header #nav.active .socials-responsive ul .contact-me{
+        font-size: 13px;
+    }
+    header #nav.active .socials-responsive ul .locale{
+        margin: 2vw;
+        margin-top: 5vw;
+        font-size: 17px;
+    }
     header #nav.active .socials-responsive ul .contact{
         margin-top: 7vw;
-    }
-    main .container-main .seta{
-        display: none;
     }
     main .container-contact{
         display: none;
