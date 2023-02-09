@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="David Soares Silva">
+    <meta name="description" content="Portfólio do desenvolvedor Front-end David S. Silva">
+    <meta name="keywords" content="portfolio, html ,css ,javascript, front-end, desenvolvimento">
+    <title>Portfólio | David Soares</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="img/favicon_io/android-chrome-192x192.png" alt=""></a>
+        <nav id="nav">
+            <img src="img/icons/menu-hamgurguer.png" id="btn-mobile" width="40px"></img>
+            <img src="img/icons/fechar-menu-hamgurguer.png" class="fechar-btn-mobile" id="fechar-btn-mobile" width="30px"></img>
+            <ul id="menu">
+                <a href="#about-me"><li><img src="img/icons/about-me.png" alt="">ABOUT ME</li></a>
+                <a href="#hard-skills"><li><img src="img/icons/soft-skill.png" alt="">HARD SKILLS</li></a>
+                <div class="socials-responsive">
+                    <ul>
+                        <a href="https://github.com/daviDsoareSS" target="_blank"><li><img src="img/github.png" alt="">GITHUB</li></a>
+                        <a href="https://www.linkedin.com/in/david-soares-silva-014891229/" target="_blank"><li><img src="img/linkedin.png" alt="">LINKEDIN</li></a>
+                        <a href="https://twitter.com/davidsilva2156" target="_blank"><li><img src="img/twitter.png" alt="">TWITTER</li></a>
+                        <li class="contact">tel. +55 (11)95193-3152</li>
+                        <li>davidsoares2156@gmail.com</li>
+                        <li>Jardim São Martinho 08081-560 – São Paulo</li>
+                    </ul>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container-contact">
+            <ul class="socials">
+                <a href="https://github.com/daviDsoareSS" target="_blank"><li><img src="img/github.png" alt=""></li></a>
+                <a href="https://www.linkedin.com/in/david-soares-silva-014891229/" target="_blank"><li><img src="img/linkedin.png" alt=""></li></a>
+                <a href="https://twitter.com/davidsilva2156" target="_blank"><li><img src="img/twitter.png" alt=""></li></a>
+            </ul>
+            <ul>
+                <li>tel. +55 (11)95193-3152</li>
+                <li>davidsoares2156@gmail.com</li>
+                <li>Jardim São Martinho 08081-560 – São Paulo</li>
+            </ul>
+        </div>
+        <div class="container-main">
+            <h1>Hi'<br>I'm <span>David</span>,<br>web developer</h1>
+            <p>Front-end Web developer</p>
+            <a href="cv/Curriculo David Soares Silva.pdf" target="_blank"><button class="contate-me cv">Download CV</button></a>
+            <a href="#contateme"><button class="contate-me">Contate me</button></a>
+        </div>
+        <span id="veja-mais">Vamos la</span>
+        <img id="icon-veja-mais" src="img/icons/3pontos.png" alt="">
+    </main>
+    <section data-anime="bottom-vertical">
+        <div class="container-projects">
+            <h2>Projetos</h2>
+            <small>Esses são projetos pessoais desenvolvidos por mim.<br>Clique e faça a navegação por eles.</small>
+        </div>
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="section-projects">
+                        <div class="card">
+                            <img class="background-project" src="img/4house.png" alt="">
+                            <img class="info" src="img/icons/info.png" alt="Informações">
+                            <div class="intro-project">
+                                <h3>4House</h3>
+                                <small>Automação residencial</small>                        
+                                <p>Desenvolvido em Javascript, PHP, HTML/CSS</p>
+                                <div class="icons-project">
+                                    <a href="https://fourhouse.azurewebsites.net/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                                    <a href="https://github.com/daviDsoareSS/tcc-automacao-residencial" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="background-project" src="img/mercado-poo.png" alt="">
+                            <img class="info" src="img/icons/info.png" alt="Informações">
+                            <div class="intro-project">
+                                <h3>Mercado Soares</h3>
+                                <small>Sistema de cadastro de produtos</small>
+                                <p>Desenvolvido em Javascript POO, HTML/CSS</p>
+                                <div class="icons-project">
+                                    <a href="https://davidsoaress.github.io/POO-javaScript/public/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                                    <a href="https://github.com/daviDsoareSS/POO-javaScript" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="background-project" src="img/jogo-da-velha.png" alt="">
+                            <img class="info" src="img/icons/info.png" alt="Informações">
+                            <div class="intro-project">
+                                <h3>Jogo da velha</h3>
+                                <small>Popularmente conhecido</small>                        
+                                <p>Desenvolvido em Javascript,HTML/CSS</p>
+                                <div class="icons-project">
+                                    <a href="https://davidsoaress.github.io/jogoDaVelha.JS/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                                    <a href="https://github.com/daviDsoareSS/jogoDaVelha.JS" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="background-project" src="img/instagram-clone.png" alt="">
+                            <img class="info" src="img/icons/info.png" alt="Informações">
+                            <div class="intro-project">
+                                <h3>Clone do Instagram</h3>
+                                <small>Página de login</small>                        
+                                <p>Desenvolvido em HTML/CSS</p>
+                                <div class="icons-project">
+                                    <a href="https://davidsoaress.github.io/Instagram-login-page/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                                    <a href="https://github.com/daviDsoareSS/Instagram-login-page" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                <div class="section-projects">
+                    <div class="card">
+                        <img class="background-project" src="img/portifolio.png" alt="">
+                        <img class="info" src="img/icons/info.png" alt="Informações">
+                        <div class="intro-project">
+                            <h3>Primeiro portfólio</h3>
+                            <small>Programado á 1 ano atrás</small>               
+                            <p>Desenvolvido em HTML/CSS</p>
+                            <div class="icons-project">
+                                <a href=" https://davidsoaress.github.io/myPortifolio/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                                <a href="https://github.com/daviDsoareSS/myPortifolio" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="background-project" src="img/polaroid.png" alt="">
+                        <img class="info" src="img/icons/info.png" alt="Informações">
+                        <div class="intro-project">
+                            <h3>Polaroid de fotos</h3>
+                            <small>Apresentação de fotos com versículos</small>                        
+                            <p>Desenvolvido em HTML/CSS e a implentação do PWA(Progressive Web App)</p>
+                            <div class="icons-project">
+                                <img src="img/icons/cursor.png" alt="Abrir no navegador">
+                                <img src="img/icons/github.png" alt="Abrir repositório">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card em-breve">
+                        <img class="info" src="img/icons/info.png" alt="Informações">
+                        <div class="intro-project">
+                            <h3>Em breve...</h3>
+                        </div>
+                    </div>
+                    <div class="card em-breve">
+                        <img class="info" src="img/icons/info.png" alt="Informações">
+                        <div class="intro-project">
+                            <h3>Em breve...</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="container-projects-responsive">
+            <div class="card-project">
+                <h4>4House</h4>
+                <small>Automação residencial</small>
+                <p>Desenvolvido em Javascript, PHP, HTML/CSS</p>
+                <div class="icons-project-responsive">
+                    <a href="https://fourhouse.azurewebsites.net/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                    <a href="https://github.com/daviDsoareSS/tcc-automacao-residencial" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                </div>
+            </div>
+            <div class="card-project">
+                <h4>Mercado Soares</h4>
+                <small>Sistema de cadastro de produtos</small>
+                <p>Desenvolvido em Javascript POO, HTML/CSS</p>
+                <div class="icons-project-responsive">
+                    <a href="https://davidsoaress.github.io/POO-javaScript/public/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                    <a href="https://github.com/daviDsoareSS/POO-javaScript" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                </div>
+            </div>
+            <div class="card-project">
+                <h4>Jogo da velha</h4>
+                <small>Popularmente conhecido</small>
+                <p>Desenvolvido em Javascript,HTML/CSS</p>
+                <div class="icons-project-responsive">
+                    <a href="https://davidsoaress.github.io/jogoDaVelha.JS/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                    <a href="https://github.com/daviDsoareSS/jogoDaVelha.JS" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                </div>
+            </div>
+            <div class="card-project">
+                <h4>Clone do Instagram</h4>
+                <small>Página de login</small>
+                <p>Desenvolvido em HTML/CSS</p>
+                <div class="icons-project-responsive">
+                    <a href="https://davidsoaress.github.io/Instagram-login-page/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                    <a href="https://github.com/daviDsoareSS/Instagram-login-page" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                </div>
+            </div>
+            <div class="card-project">
+                <h4>Primeiro portfólio</h4>
+                <small>Programado á 1 ano atrás</small>               
+                <p>Desenvolvido em HTML/CSS</p>
+                <div class="icons-project-responsive">
+                    <a href=" https://davidsoaress.github.io/myPortifolio/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                    <a href="https://github.com/daviDsoareSS/myPortifolio" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                </div>
+            </div>
+            <div class="card-project">
+                <h4>Polaroid de fotos</h4>
+                <small>Apresentação de fotos com versículos</small>                        
+                <p>Desenvolvido em HTML/CSS e a implentação do PWA(Progressive Web App)</p>
+                <div class="icons-project-responsive">
+                    <a href="https://davidsoaress.github.io/polaroidResponsive/public/" target="_blank"><img src="img/icons/cursor.png" alt="Abrir no navegador"></a>
+                    <a href="https://github.com/daviDsoareSS/polaroidResponsive" target="_blank"><img src="img/icons/github.png" alt="Abrir repositório"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <article id="about-me">
+        <div class="container-article" data-anime="right">
+            <h2>David Soares</h2>
+            <small>Quem sou eu?</small>
+            <hr>
+            <h3>Sobre mim</h3>
+            <p>Olá me chamo David, tenho 19 anos. Sou um desenvolvedor apaixonado pelo que eu faço, sou fascinado por técnologia, sempre fiz questão de acompanhar as novidades desse mundo ficando por dentro da atualidade estudando e aprimorando meus conhecimentos.<br>
+            <br>
+            Atualmente fazem 2 anos que estou nessa jornada de estudos desenvolvendo projetos pessoais, utilizando PHP, Javascript, HTML/CSS e MySql. No momento estou estudando React JS. Estou à procura de uma oportunidade para aplicar todo o conhecimento adquirido com muito esforço e dedicação, enquanto esse sonho não se torna realidade irei me dedicar em estudos para me capacitar ainda mais. Nos meus tempos livres realizo artes digitais para divulgação de empresas e microemprendedores que entram em contato comigo.
+        </p>
+        </div>
+        <div class="container-article-experiencie" data-anime="left">
+            <h2>Competência e experiência</h2>
+            <p id="subtitle-skill">Além de programar também tenho conhecimento com Design digital que me possibilita criar meus próprios wireframes, interfaces UI/UX facilitando o processo de criação de projetos.</p>
+            <div class="container-article-wireframes">
+                <div class="wireframes">
+                    <img src="img/Wireframes/Portal-nutricao.png" alt="">
+                </div>
+                <div class="wireframes">
+                    <img src="img/Wireframes/four-house-company.png" alt="">
+                </div>
+                <div class="text-wireframes">
+                    <h3>Competência com softwares de <span>desenvolvimento gráfico</span></h3>
+                    <p>Sempre olhei para o visual gráfico de sites e propagandas com outros olhos, dispertando o interesse de aprender como tudo aquilo tinha sido criado. Busquei aprender sobre ferramentas que me possibilitária desenvolver algo parecido, por meio de videos e blogs consegui adquirir muito conhecimento e hoje utilizo essa habilidade para facilitar o desenvolvimento dos meus projetos.</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <aside>
+        <div class="container-aside">
+            <h2>Habilidades</h2>
+            <p class="subtitle-skill" id="hard-skills">Essas são as linguagens e ferramentas que tenho conhecimento, algumas delas estou em processo de aprendizagem.</p>
+            <div class="aside-skills" data-anime="bottom">
+                <div class="skill">
+                    <img src="img/icons/html.png" alt="">
+                    <p>HTML/5<br><span>Avançado</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/css.png" alt="">
+                    <p>CSS/3<br><span>Avançado</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/javascript.png" alt="">
+                    <p>Javascript<br><span>Intermediário</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/php.png" alt="">
+                    <p>PHP<br><span>Intermediário</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/c++.png" alt="">
+                    <p>C++<br><span>Básico</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/bootstrap.png" alt="">
+                    <p>Bootstrap<br><span>Avançado</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/mysql.png" alt="">
+                    <p>Mysql<br><span>Intermediário</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/postgresql.png" alt="">
+                    <p>Postgresql<br><span>Intermediário</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/adobe-xd.png" alt="">
+                    <p>Adobe XD<br><span>Avançado</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/adobe-photoshop.png">
+                    <p>Photoshop<br><span>Avançado</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/figma.png" alt="">
+                    <p>Figma<br><span>Avançado</span></p>
+                </div>
+                <div class="skill">
+                    <img src="img/icons/azure.png" alt="">
+                    <p>Microsoft Azure<br><span>Intermediário</span></p>
+                </div>
+            </div>
+            <div id="contateme" class="container-thanks">
+                <h2>Obrigado por chegar até aqui.</h2>
+                <p>Espero que tenha gostado do meu portfólio, que foi desenvolvido por mim com muito carinho e dedicação. Entre em contato preenchendo o formulário abaixo.</p>
+            </div>
+            <div class="container-thanks-form" data-anime="left">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.394786077113!2d-46.41625013542407!3d-23.482285664561054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce63b9e6cce0a7%3A0x4d2ea2b87e9e80cd!2sR.%20da%20Goiabeira%20Serrana%20-%20Jardim%20Sao%20Martinho%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2008081-560!5e0!3m2!1spt-BR!2sbr!4v1675886291365!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <form action="https://formsubmit.co/davidsoares2156@gmail.com" method="POST">
+                    <div>
+                        <input type="text" id="inputNome" name="name" placeholder="Nome completo" required maxlength="25" minlength="2">
+                        <span></span>
+                    </div>
+                    <div>
+                        <input type="email" id="inputEmail" name="email" placeholder="E-mail" required maxlength="50">
+                        <span></span>
+                    </div>
+                    <div>
+                        <textarea name="message" id="textAreaMensagem" placeholder="Mensagem" required maxlength="100"></textarea>
+                        <span></span>
+                        <input type="hidden" name="_subject" value="Novo contato!"> 
+                        <input type="text" name="_honey" style="display:none;"> 
+                        <input type="hidden" name="_captcha" value="false"> 
+                    </div>
+                    <button type="submit">Enviar mensagem</button>
+                </form> 
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <h4>desenvolved by <a href="https://github.com/daviDsoareSS" target="_blank"><strong>daviDsoareSS</strong></a>©</h4>
+    </footer>
+    <script src="script/js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+      <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script> 
+</body>
+</html>
