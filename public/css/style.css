@@ -543,7 +543,6 @@ footer strong{
         transform: translate(0%, 50%) !important;  
     }
     body{
-        width: 100%;
         overflow-x: hidden !important;
     }
     header{
@@ -564,7 +563,7 @@ footer strong{
     header #nav.active .fechar-btn-mobile{
         width: 25px;
         display: block;
-        z-index: 99999;
+        z-index: 99999999999;
         position: absolute;
         top: 0;
         right: 0;
